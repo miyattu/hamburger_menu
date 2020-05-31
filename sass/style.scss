@@ -17,6 +17,10 @@ header {
     }
 }
 
+.branch_menu {
+    display: flex;
+}
+
 .Main {
     &_top {
         position: relative;
@@ -52,12 +56,21 @@ header {
             top: 280.5px;
             left: 137.5px;
             height: 4px;
-            width: 63;
+            width: 63px;
             background-color: #FFFFFF;
         }
-        dl {
+        .subheading1 {
             position: absolute;
             top: 923px;
+            left: 131px;
+            width: 585px;
+            height: 174px;
+            background-color: #FFFFFF;
+            opacity: 0.7;
+        }
+        .subheading2 {
+            position: absolute;
+            top: 1119px;
             left: 131px;
             width: 585px;
             height: 174px;
@@ -84,6 +97,63 @@ header {
         img {
             width: 625px;
             height: 1196px;
+            margin-top: 70px;
+            margin-left: 80px;
+        }
+        h2 {
+            position: absolute;
+            margin-top: 101px;
+            margin-left: 102px;
+            font-size: 80px;
+            color: #EAEAEA;
+        }
+        hr {
+            position: absolute;
+            top: 280.5px;
+            left: 105.5px;
+            height: 4px;
+            width: 63px;
+            background-color: #FFFFFF;
+        }
+        .subheading3 {
+            position: absolute;
+            bottom: 200px;
+            left: -30px;
+            width: 585px;
+            height: 174px;
+            background-color: #FFFFFF;
+            opacity: 0.7;
+        }
+        .subheading4 {
+            position: absolute;
+            bottom: 100px;
+            left: -30px;
+            width: 585px;
+            height: 174px;
+            background-color: #FFFFFF;
+            opacity: 0.7;
+        }
+        dl {
+            position: absolute;
+            top: 923px;
+            left: 131px;
+            width: 585px;
+            height: 174px;
+            background-color: #FFFFFF;
+            opacity: 0.7;
+        }
+        dt {
+            margin: 22px 350px 31px 19px;
+            font-size: 24px;
+            color: #3C2A10;
+        }
+        dd {
+            margin-left: 19px;
+            width: 541px;
+            height: 97px;
+            line-height: 150%;
+            font-size: 16px;
+            color: #3C2A10;
         }
     }
 }
