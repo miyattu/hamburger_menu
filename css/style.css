@@ -113,7 +113,6 @@ header .container {
 }
 
 .Main_content2 {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,15 +135,14 @@ header .container {
 
 .Main_content2 hr {
   position: absolute;
-  top: 280.5px;
-  left: 105.5px;
+  top: 1025.5px;
+  left: 841.5px;
   height: 4px;
   width: 63px;
   background-color: #FFFFFF;
 }
 
 .Main_content2 .subheading3 {
-  position: absolute;
   bottom: 200px;
   left: -30px;
   width: 585px;
@@ -154,7 +152,6 @@ header .container {
 }
 
 .Main_content2 .subheading4 {
-  position: absolute;
   bottom: 100px;
   left: -30px;
   width: 585px;
@@ -165,16 +162,14 @@ header .container {
 
 .Main_content2 dl {
   position: absolute;
-  top: 923px;
-  left: 131px;
+  top: 1600px;
+  left: 836px;
   width: 585px;
   height: 174px;
-  background-color: #FFFFFF;
-  opacity: 0.7;
 }
 
 .Main_content2 dt {
-  margin: 22px 350px 31px 19px;
+  padding: 22px 350px 31px 19px;
   font-size: 24px;
   color: #3C2A10;
 }
