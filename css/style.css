@@ -113,6 +113,7 @@ header .container {
 }
 
 .Main_content2 {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,16 +136,17 @@ header .container {
 
 .Main_content2 hr {
   position: absolute;
-  top: 1025.5px;
-  left: 841.5px;
+  bottom: 1000px;
+  right: 535px;
   height: 4px;
   width: 63px;
   background-color: #FFFFFF;
 }
 
 .Main_content2 .subheading3 {
-  bottom: 200px;
-  left: -30px;
+  position: absolute;
+  bottom: 720px;
+  right: 736px;
   width: 585px;
   height: 174px;
   background-color: #FFFFFF;
@@ -152,8 +154,9 @@ header .container {
 }
 
 .Main_content2 .subheading4 {
-  bottom: 100px;
-  left: -30px;
+  position: absolute;
+  bottom: 525px;
+  right: 736px;
   width: 585px;
   height: 174px;
   background-color: #FFFFFF;
@@ -181,5 +184,36 @@ header .container {
   line-height: 150%;
   font-size: 16px;
   color: #3C2A10;
+}
+
+.map {
+  position: relative;
+}
+
+.map h2 {
+  position: absolute;
+  top: 222px;
+  left: 119px;
+  font-size: 36px;
+}
+
+.map hr {
+  position: absolute;
+  top: 321.5px;
+  left: 119.5px;
+  width: 75px;
+}
+
+.map_text {
+  position: absolute;
+  top: 385px;
+  left: 119px;
+  width: 697px;
+  height: 356px;
+  line-height: 200%;
+}
+
+.map_img {
+  background-image: url(img/map.png);
 }
 /*# sourceMappingURL=style.css.map */

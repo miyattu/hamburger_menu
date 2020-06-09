@@ -92,6 +92,7 @@ header {
         }
     }
     &_content2 {
+        position: relative;
         display: flex;
         img {
             width: 625px;
@@ -108,23 +109,25 @@ header {
         }
         hr {
             position: absolute;
-            top: 1025.5px;
-            left: 841.5px;
+            bottom: 1000px;
+            right: 535px;
             height: 4px;
             width: 63px;
             background-color: #FFFFFF;
         }
         .subheading3 {
-            bottom: 200px;
-            left: -30px;
+            position: absolute;
+            bottom: 720px;
+            right: 736px;
             width: 585px;
             height: 174px;
             background-color: #FFFFFF;
             opacity: 0.7;
         }
         .subheading4 {
-            bottom: 100px;
-            left: -30px;
+            position: absolute;
+            bottom: 525px;
+            right: 736px;
             width: 585px;
             height: 174px;
             background-color: #FFFFFF;
@@ -150,5 +153,39 @@ header {
             font-size: 16px;
             color: #3C2A10;
         }
+    }
+}
+
+.map {
+    position: relative;
+    h2 {
+        position: absolute;
+        top: 222px;
+        left: 119px;
+        font-size: 36px;
+        // color: #FFFFFF;
+    }
+    hr {
+        position: absolute;
+        top: 321.5px;
+        left: 119.5px;
+        width: 75px;
+    }
+    &_text {
+        position: absolute;
+        top: 385px;
+        left: 119px;
+        width: 697px;
+        height: 356px;
+        line-height: 200%;
+    }
+    // img {
+    //     width: 1553px;
+    //     height: 649px;
+    //     margin-top: 132px;
+    //     color: #000000;
+    // }
+    &_img {
+        background-image: url(img/map.png);
     }
 }
