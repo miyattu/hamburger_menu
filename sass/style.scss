@@ -1,3 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+}
 header {
     width: 1553px;
     height: 217px;
@@ -157,35 +162,39 @@ header {
 }
 
 .map {
-    position: relative;
+    background-image: url(../img/map.png);
+    background-color: #000000;
+    width: 1553px;
+    height: 649px;
+    margin-top: 132px;
+    &_heading {
+        padding-top: 90px;
+        padding-left: 119px;
+    }
     h2 {
-        position: absolute;
         top: 222px;
         left: 119px;
         font-size: 36px;
-        // color: #FFFFFF;
+        color: #FFFFFF;
+        padding-bottom: 63.5px;
     }
     hr {
-        position: absolute;
         top: 321.5px;
         left: 119.5px;
         width: 75px;
+        color: #FFFFFF;
     }
     &_text {
-        position: absolute;
         top: 385px;
         left: 119px;
         width: 697px;
         height: 356px;
+        padding-top: 63.5px;
         line-height: 200%;
+        color: #FFFFFF;
     }
-    // img {
-    //     width: 1553px;
-    //     height: 649px;
-    //     margin-top: 132px;
-    //     color: #000000;
-    // }
-    &_img {
-        background-image: url(img/map.png);
-    }
+}
+
+.sidebar {
+    position: sticky;
 }
