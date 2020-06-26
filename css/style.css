@@ -236,7 +236,7 @@ header .container {
   font-size: 36px;
   color: #FFFFFF;
   padding-bottom: 63.5px;
-  z-index: 20;
+  z-index: 30;
 }
 
 .map hr {
@@ -245,7 +245,7 @@ header .container {
   left: 119.5px;
   width: 75px;
   color: #FFFFFF;
-  z-index: 20;
+  z-index: 25;
 }
 
 .map_text {
@@ -271,7 +271,7 @@ header .container {
   content: '';
   width: 950px;
   height: 649px;
-  z-index: 5;
+  z-index: -1;
 }
 
 .sidebar {
